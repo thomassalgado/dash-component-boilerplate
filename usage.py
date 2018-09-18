@@ -1,4 +1,4 @@
-import my_dash_component
+import highcharts_dash_component
 import dash
 from dash.dependencies import Input, Output
 import dash_html_components as html
@@ -9,7 +9,7 @@ app.scripts.config.serve_locally = True
 app.css.config.serve_locally = True
 
 app.layout = html.Div([
-    my_dash_component.ExampleComponent(
+    highcharts_dash_component.ExampleComponent(
         id='input',
         value='my-value',
         label='my-label'
